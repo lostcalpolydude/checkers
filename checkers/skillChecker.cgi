@@ -70,7 +70,7 @@ mainSkillList = {
         ("Hero of the Half-Shell", 0, 31),
         ("Tao of the Terrapin", 0, 32),
         ("Spectral Snapper", 0, 33),
-        ("Summon Leviatuga", 0, 135),    ################################################ last skill
+        ("Summon Leviatuga", 0, 135),
        ),
 "P" :  (
         ("Manicotti Meditation", 0, 34),
@@ -130,6 +130,7 @@ mainSkillList = {
         ("Smooth Movement", 0, 84),
         ("Superhuman Cocktailcrafting", 0, 85),
         ("Tango of Terror", 0, 86),
+        ("Salacious Cocktailcrafting", 0, 136),
        ),
 "AT" : (
         ("Moxie of the Mariachi", 0, 87),
@@ -149,6 +150,7 @@ mainSkillList = {
         ("Carlweather's Cantata of Confrontation", 1, 101),
         ("Ur-Kel's Aria of Annoyance", 1, 102),
         ("Dirge of Dreadfulness", 1, 103),
+        ("Donho's Bubbly Ballad", 1, 137),
        ),
 "Gnomish" : (
         ("Cosmic Ugnderstanding", 0, 104),
@@ -174,11 +176,14 @@ mainSkillList = {
         ("Chorale of Companionship", 1, 122),
         ("Prelude of Precision", 1, 123),
        ),
-"Hodgman Journals" : (
+"Clan Dungeon Boss" : (
         ("Natural Born Scrabbler", 0, 124),
         ("Thrift and Grift", 0, 125),
         ("Abs of Tin", 0, 126),
         ("Marginally Insane", 0, 127),
+	("Slimy Shoulders", 0, 138),
+	("Slimy Sinews", 0, 139),
+	("Slimy Synapses", 0, 140),    ################################################ last skill
        ),
 "Other" : (
         ("Transcendent Olfaction", 0, 128),
@@ -276,7 +281,7 @@ if form.has_key('skills') or form.has_key('hash'):
    print '  <td align="center">Accordian Thief</td>'
    print '  <td align="center">Gnomish Skills</td>'
    print '  <td align="center">Hobopolis</td>'
-   print '  <td align="center">Hodgman\'s Journals</td>'
+   print '  <td align="center">Clan Dungeon Boss</td>'
    print '  <td align="center">Other</td>'
    print ' </tr>'
    
@@ -286,7 +291,7 @@ if form.has_key('skills') or form.has_key('hash'):
       elif i == 16: print '  <td align="center">Spooky Raven</td>'
       elif i == 17: print '  <td align="center">Sea Skills</td>'
 
-      for j in ('SC','TT','P','S','DB','AT','Gnomish','Hobopolis','Hodgman Journals', 'Other'):
+      for j in ('SC','TT','P','S','DB','AT','Gnomish','Hobopolis','Clan Dungeon Boss', 'Other'):
          if i < len(mainSkillList[j]):
             skillName = string.strip(mainSkillList[j][i][0])
             skillName = skillName.decode('utf-8')
