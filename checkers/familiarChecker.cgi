@@ -100,6 +100,16 @@ familiarList = [
 [ "Imitation Crab", "Crab.gif", 102 ],
 [ "Pair of Ragged Claws", "Raggedclaws.gif", 103 ],
 [ "Magic Dragonfish", "Dragonfishfam.gif", 104 ],
+[ "Frumious Bandersnatch", "Bandersnatch.gif", 105 ],
+[ "Midget Clownfish", "Midgetclownfish.gif", 106 ],
+[ "Syncopated Turtle", "Syncturtle.gif", 107 ],
+[ "Grinning Turtle", "Grinturtle.gif", 108 ],
+[ "Purse Rat", "Purserat.gif", 109 ],
+[ "Wereturtle", "Turtle.gif", 110 ],
+[ "Baby Sandworm", "Babyworm.gif", 111 ],
+[ "Slimeling", "Slimeling.gif", 112 ],
+[ "He-Boulder", "Heboulder.gif", 113 ],
+[ "Rock Lobster", "Rocklobster.gif", 114 ],
 ]
 
 cgitb.enable()
