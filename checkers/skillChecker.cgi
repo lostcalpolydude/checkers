@@ -278,7 +278,7 @@ if form.has_key('skills') or form.has_key('hash'):
    print '  <td align="center">Pastamancer</td>'
    print '  <td align="center">Sauceror</td>'
    print '  <td align="center">Disco Bandit</td>'
-   print '  <td align="center">Accordian Thief</td>'
+   print '  <td align="center">Accordion Thief</td>'
    print '  <td align="center">Gnomish Skills</td>'
    print '  <td align="center">Hobopolis</td>'
    print '  <td align="center">Clan Dungeon Boss</td>'

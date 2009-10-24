@@ -110,6 +110,11 @@ familiarList = [
 [ "Slimeling", "Slimeling.gif", 112 ],
 [ "He-Boulder", "Heboulder.gif", 113 ],
 [ "Rock Lobster", "Rocklobster.gif", 114 ],
+[ "Urchin Urchin", "Urchin.gif", 115 ],
+[ "Grouper Groupie", "Grouper2.gif", 116 ],
+[ "Squamous Gibberer", "Gibberer.gif", 117 ],
+[ "Dancing Frog", "Dancfrog.gif", 118 ],
+[ "Chauvinist Pig", "Chauvpig.gif", 119 ],
 ]
 
 cgitb.enable()

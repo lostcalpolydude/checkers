@@ -85,6 +85,7 @@ mainTrophyList = (
    ("The One That Didn't Get Away", "Defeat a Trophyfish", 0, "Visitors_stink_earlier_thumb.gif", 81),
    ("Losing Your Marbles", "Use a big bumboozer marble with a full set of marbles and choose to sell to The Collector", 0, "Garble_varble_zous_thumb.gif", 82),
    ("Hunter In Darkness", "Kill 5 wumpii in a row without dying", 0, "Dodecahardon_thumb.gif", 83),
+   ("Evil's Okay in My Book", "Become A Little Bit Evil 13 times", 0, "Im_a_little_bit_country_thumb.gif", 84),
 )
 
 

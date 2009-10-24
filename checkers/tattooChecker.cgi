@@ -88,6 +88,9 @@ tattooList = [
 ["Spohobotat.gif","Dire Drifter Duds",0, 73],
 ["Stehobotat.gif","Vile Vagrant Vestments",0, 74],
 ["Hodgmantat.gif","Hodgman's Regal Frippery",0, 75],
+["Pigirontat.gif","Pork Elf Prizes",0,128],
+["Radioheadoutfit.gif","Primitive Radio Duds",0,129]
+["Rockoutfit.gif","Floaty Fatigues",0,130]
 ["Class1.gif","Seal Clubber",0, 76],
 ["Class1hc.gif","Seal Clubber",0, 77],
 ["Class1hco.gif","Seal Clubber",0, 78],
