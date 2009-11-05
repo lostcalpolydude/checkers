@@ -91,6 +91,7 @@ tattooList = [
 ["Pigirontat.gif","Pork Elf Prizes",0,128],
 ["Radioheadoutfit.gif","Primitive Radio Duds",0,129]
 ["Rockoutfit.gif","Floaty Fatigues",0,130]
+["Deadtreeoutfit.gif","Vestments of the Treeslayer",0,131]
 ["Class1.gif","Seal Clubber",0, 76],
 ["Class1hc.gif","Seal Clubber",0, 77],
 ["Class1hco.gif","Seal Clubber",0, 78],

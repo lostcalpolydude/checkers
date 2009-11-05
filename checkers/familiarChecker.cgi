@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # coding: UTF-8
 
-import string, cgi, cgitb, hashutils
+import string, cgi, cgitb, crypt
 
 familiarList = [
 [ "Mosquito", "familiar1.gif", 1 ],
@@ -180,7 +180,7 @@ if form.has_key('familiars') or form.has_key('hash'):
         hashutils.get_hash_bits(hash_long, familiarNumber, 1):
        print '  <td bgcolor="#00ff00"><a href="%s"><img src="%s" border="0" /></a>%s</td>' % (wikilink,imglink,familiarName)
        total_familiars += 1
-       hash_long = hashutils.set_hash_bits(hash_long, familiarNumber, 1, 1)
+       #hash_long = hashutils.set_hash_bits(hash_long, familiarNumber, 1, 1)
      else:
        print '  <td><a href="%s"><img src="%s" border="0" /></a>%s</td>' % (wikilink,imglink,familiarName)
 
@@ -193,7 +193,7 @@ if form.has_key('familiars') or form.has_key('hash'):
    print '</tr>'
    print '</table>'
 
-   print '<p><a href="familiarChecker.cgi?hash=%s">Perma-link</a></p>' % hashutils.long_to_base64(hash_long)
+   #print '<p><a href="familiarChecker.cgi?hash=%s">Perma-link</a></p>' % hashutils.long_to_base64(hash_long)
 
    print '<p>You have %d familiars.</p>' % total_familiars
    print '<p>This program is currently checking for %d familiars</p>' % len(familiarList)

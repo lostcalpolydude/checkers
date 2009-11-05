@@ -70,6 +70,7 @@ mainTrophyList = (
    ("Amateur Tour Guide", "Have 10(?) different '90%(?) favorite' familiars in your ascension history", 0, "This_boat_sucks.gif", 65),
    ("Professional Tour Guide", "Have 20(?) different '90%(?) favorite' familiars in your ascension history", 0, "Now_ive_seen_it_all.gif", 66),
    ("Brave Sir Robin", "Successfully run away from 100 combats", 0, "In_soviet_russia_minstrels_eat_you.gif", 67),
+   ("Desert Wind", "Multi-use 29 palm-frond fans from your inventory", 0, "What_the_hell_are_colitas_anyway_thumb.gif", 68),
    ("Two-Tiered Tiny Plastic Trophy", "Have all 64 tiny plastic series 2 figurines in your display case", 0, "Just_like_grandmas_dentures.gif", 69),
    ("Master Paster", "Discover 69 different Meat Pasting recipes", 0, "Who_runs_bartertown.gif", 70),
    ("Golden Spatula", "Discover 50 different food recipes", 0, "And_thats_all.gif", 71),
