@@ -48,11 +48,7 @@ table {
 <h3>Enter Your Hobo Glyph Locations Here...</h3>
 <p>
 Just copy them out of your quest log or the text from using the Hobo Code Binder and paste them in the box below.<br />
-In addition to this checker, if you are using GreaseMonkey you can <a href="http://www.sngx.net/kol/hobocodechecker.user.js">download this GM script</a> which will show which codes you are missing when you are looking in your quest log.
-</p>
-<p>
-Change log<br />
-8/4/2008 - Created!<br />
+In addition to this checker, if you are using GreaseMonkey you can <a href="http://userscripts.org/scripts/show/61632">download this GM script</a> which will show which codes you are missing when you are looking in your quest log.
 </p>
 <form method="post" action="./hoboChecker.cgi">
 <div><textarea name="glyphs" rows="10" cols="50"></textarea></div>

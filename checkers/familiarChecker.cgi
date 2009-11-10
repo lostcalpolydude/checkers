@@ -145,7 +145,6 @@ tr {
 <h3>Enter Your Familiars Here...</h3>
 <p>
 Copy <b>ALL</b> of the text on the familiar terrarium page and paste it into the box below.
-This has only been tested with Firefox, so please let me (csemaj) know if there are any issues with Internet Explorer.
 </p>
 <p><b>NOTE:</b> Players in Bad Moon can use the data from the familiar renaming page instead of the normal terrarium view.</p>
 <form method="post" action="./familiarChecker.cgi">

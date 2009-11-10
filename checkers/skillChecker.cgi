@@ -240,7 +240,6 @@ table {
 Just copy them out of your profile and paste them in the box below.<br />
 <b>There can only be one skill per line</b>.
 </p>
-<p>Since the trivial update to allow you to view permed skills you can't use, the former limitations to HC/BM are gone! Just be sure to paste all of the skills into the box below.</p>
 <form method="post" action="./skillChecker.cgi">
 <div><textarea name="skills" rows="10" cols="50"></textarea></div>
 <div><input type="submit" /></div>
@@ -347,6 +346,7 @@ print """
 </p>
 <p>
 Change log<br />
+11/10/2009 - deusnoctum and bmaher take over development. Skill list brought up to date.<br />
 01/26/2009 - Added the SC/TT Sea Skills.<br />
 01/17/2009 - Added the two new Sea Skills, and added a "Perma-link" option so you can send people your list of skills.<br />
 08/04/2008 - Added stuff from Hobopolis/Rainbow Gravitation.<br />

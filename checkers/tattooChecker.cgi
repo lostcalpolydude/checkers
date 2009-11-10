@@ -153,9 +153,8 @@ td {
 In order to get this checker working, you have two options:
 <ol>
 <li>You can paste the source of the tattoo page into this box.  However, <b>PLEASE REMOVE THE HASHED PASSWORD FROM IT FIRST!!!</b></li>
-<li>If you're using FireFox, you can install <a href="http://www.sngx.net/kol/tattoochecker.user.js">this greasemonkey script</a> which will add the name of the tattoo image underneath each tattoo.</li>
+<li>If you're using Firefox, you can install <a href="http://userscripts.org/scripts/show/61633">this greasemonkey script</a> which will add the name of the tattoo image underneath each tattoo.</li>
 </ol>
-<h3>IMPORTANT!</h3>If you downloaded the 0.0.1 version of the GM tattoo checker, be sure to delete it before/after installing the most recent version or things will be doubled up.  There was a naming issue (shows up as Trophy Checker instead of Tattoo Checker...) as well as a few other things cleaned up in the current version.
 </p>
 <form method="post" action="./tattooChecker.cgi">
 <div><textarea name="tattoos" rows="10" cols="100"></textarea></div>
