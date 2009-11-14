@@ -32,7 +32,7 @@ tattooList = [
 ["Hasc12.gif","Hardcore",0, 23],
 ["Swordtat.gif","8-Bit Finery",0, 24],
 ["Armortat.gif","Antique Arms And Armor",0, 25],
-["Arbordayoutfit.gif", "Arrrbor Day Apparrrrrel", 0, 122],
+["Arbortat.gif", "Arrrbor Day Apparrrrrel", 0, 122],
 ["Blacktat.gif","Black Armaments",0, 26],
 ["Bowtat.gif","Bow Tux",0, 27],
 ["Bugbear.gif","Bugbear Costume",0, 28],
@@ -89,9 +89,9 @@ tattooList = [
 ["Stehobotat.gif","Vile Vagrant Vestments",0, 74],
 ["Hodgmantat.gif","Hodgman's Regal Frippery",0, 75],
 ["Pigirontat.gif","Pork Elf Prizes",0,128],
-["Radioheadoutfit.gif","Primitive Radio Duds",0,129]
-["Rockoutfit.gif","Floaty Fatigues",0,130]
-["Deadtreeoutfit.gif","Vestments of the Treeslayer",0,131]
+["Radioheadoutfit.gif","Primitive Radio Duds",0,129],
+["Rockoutfit.gif","Floaty Fatigues",0,130],
+["Deadtreeoutfit.gif","Vestments of the Treeslayer",0,131],
 ["Class1.gif","Seal Clubber",0, 76],
 ["Class1hc.gif","Seal Clubber",0, 77],
 ["Class1hco.gif","Seal Clubber",0, 78],

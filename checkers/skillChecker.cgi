@@ -34,6 +34,7 @@ def set_hash_bits(hash_long, offset, val):
 mainSkillList = {
 "SC" : (
         ("Seal Clubbing Frenzy", 1, 0),
+	("Clobber", 0, 141),
         ("Hide of the Otter", 0, 1),
         ("Claws of the Otter", 0, 2),
         ("Tongue of the Otter", 0, 3),
@@ -54,6 +55,7 @@ mainSkillList = {
        ),
 "TT" : (
         ("Patience of the Tortoise", 1, 17),
+	("Toss", 0, 142),
         ("Headbutt", 0, 18),
         ("Skin of the Leatherback", 0, 19),
         ("Amphibian Sympathy", 0, 20),
@@ -74,6 +76,7 @@ mainSkillList = {
        ),
 "P" :  (
         ("Manicotti Meditation", 0, 34),
+	("Spaghetti Spear", 0, 143),
         ("Ravioli Shurikens", 0, 35),
         ("Entangling Noodles", 0, 36),
         ("Lasagna Bandages", 0, 37),
@@ -94,6 +97,7 @@ mainSkillList = {
        ),
 "S" :  (
         ("Sauce Contemplation", 0, 52),
+	("Salsaball", 0, 144),
         ("Stream of Sauce", 0, 53),
         ("Saucy Salve", 0, 54),
         ("Expert Panhandling", 0, 55),
@@ -114,6 +118,7 @@ mainSkillList = {
        ),
 "DB" : (
         ("Disco Aerobics", 0, 70),
+	("Suckerpunch", 0, 145),
         ("Disco Eye-Poke", 0, 71),
         ("Overdeveloped Sense of Self Preservation", 0, 72),
         ("Disco Nap", 0, 73),
@@ -134,6 +139,7 @@ mainSkillList = {
        ),
 "AT" : (
         ("Moxie of the Mariachi", 0, 87),
+	("Sing", 0, 146), ##############################LAST SKILL
         ("The Moxious Madrigal", 0, 88),
         ("The Magical Mojomuscular Melody", 0, 89),
         ("Cletus's Canticle of Celerity", 1, 90),
@@ -183,7 +189,7 @@ mainSkillList = {
         ("Marginally Insane", 0, 127),
 	("Slimy Shoulders", 0, 138),
 	("Slimy Sinews", 0, 139),
-	("Slimy Synapses", 0, 140),    ################################################ last skill
+	("Slimy Synapses", 0, 140),
        ),
 "Other" : (
         ("Transcendent Olfaction", 0, 128),
@@ -284,11 +290,14 @@ if form.has_key('skills') or form.has_key('hash'):
    print '  <td align="center">Other</td>'
    print ' </tr>'
    
-   for i in range(0,18):
+   for i in range(0,19):
       print ' <tr>'
-      if i < 16: print '  <td align="center">%d</td>' % i
-      elif i == 16: print '  <td align="center">Spooky Raven</td>'
-      elif i == 17: print '  <td align="center">Sea Skills</td>'
+      z = i-1
+      if i == 0: print '  <td align="center">0 (T)</td>'
+      elif i == 1: print '  <td align="center">0 (C)</td>'
+      elif i < 17: print '  <td align="center">%d</td>' % z
+      elif i == 17: print '  <td align="center">Spooky Raven</td>'
+      elif i == 18: print '  <td align="center">Sea Skills</td>'
 
       for j in ('SC','TT','P','S','DB','AT','Gnomish','Hobopolis','Clan Dungeon Boss', 'Other'):
          if i < len(mainSkillList[j]):
@@ -326,7 +335,7 @@ if form.has_key('skills') or form.has_key('hash'):
 
    print '</table>'
 
-   print '<p><a href="skillChecker.cgi?hash=%s">Perma-link</a></p>' % long_to_base64(hash_long)
+   print '<p><a href="skillChecker.cgi?hash=%s">Perma-link</a> (if you want to post this in your profile, <a href="http://tinyurl.com/" target="_newWindow">tinyurl.com</a> is recommended)</p>' % long_to_base64(hash_long)
 
    print '<p>If you ascended right now:</p>'
    print '<ul>'
