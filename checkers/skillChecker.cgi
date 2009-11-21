@@ -335,7 +335,7 @@ if form.has_key('skills') or form.has_key('hash'):
 
    print '</table>'
 
-   print '<p><a href="skillChecker.cgi?hash=%s">Perma-link</a> (if you want to post this in your profile, <a href="http://tinyurl.com/" target="_newWindow">tinyurl.com</a> is recommended)</p>' % long_to_base64(hash_long)
+   print '<p><a href="skillChecker.cgi?hash=%s">Perma-link</a> (if you want to post this in your profile, <a href="http://tinyurl.com/create.php?url=http://overlordindustries.net/cgi-bin/skillChecker.cgi?hash=%s" target="_newWindow">tinyurl.com</a> is recommended)</p>' % (long_to_base64(hash_long),long_to_base64(hash_long))
 
    print '<p>If you ascended right now:</p>'
    print '<ul>'
@@ -355,6 +355,7 @@ print """
 </p>
 <p>
 Change log<br />
+11/15/2009 - tinyurl link added<br />
 11/10/2009 - deusnoctum and bmaher take over development. Skill list brought up to date.<br />
 01/26/2009 - Added the SC/TT Sea Skills.<br />
 01/17/2009 - Added the two new Sea Skills, and added a "Perma-link" option so you can send people your list of skills.<br />
