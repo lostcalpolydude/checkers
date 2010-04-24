@@ -52,10 +52,11 @@ mainSkillList = {
         ("Pulverize", 0, 15),
         ("Snarl of the Timberwolf", 1, 16),
         ("Harpoon!", 0, 134),
+		("Holiday Weight Gain", 0, 147),
        ),
 "TT" : (
         ("Patience of the Tortoise", 1, 17),
-	("Toss", 0, 142),
+		("Toss", 0, 142),
         ("Headbutt", 0, 18),
         ("Skin of the Leatherback", 0, 19),
         ("Amphibian Sympathy", 0, 20),
@@ -73,10 +74,12 @@ mainSkillList = {
         ("Tao of the Terrapin", 0, 32),
         ("Spectral Snapper", 0, 33),
         ("Summon Leviatuga", 0, 135),
+		("Jingle Bells", 0, 148),
+		("Curiosity of Br'er Tarrypin", 0, 156), #################### LAST SKILL
        ),
 "P" :  (
         ("Manicotti Meditation", 0, 34),
-	("Spaghetti Spear", 0, 143),
+		("Spaghetti Spear", 0, 143),
         ("Ravioli Shurikens", 0, 35),
         ("Entangling Noodles", 0, 36),
         ("Lasagna Bandages", 0, 37),
@@ -94,6 +97,7 @@ mainSkillList = {
         ("Transcendental Noodlecraft", 0, 49),
         ("Fearful Fettucini", 0, 50),
         ("Tempuramancy", 0, 51),
+	("Candyblast", 0, 149),
        ),
 "S" :  (
         ("Sauce Contemplation", 0, 52),
@@ -115,6 +119,8 @@ mainSkillList = {
         ("The Way of Sauce", 0, 67),
         ("Scarysauce", 1, 68),
         ("Deep Saucery", 0, 69),
+	("Surge of Icing", 0, 150),
+	("Käsesoßesturm", 0, 154),
        ),
 "DB" : (
         ("Disco Aerobics", 0, 70),
@@ -136,10 +142,11 @@ mainSkillList = {
         ("Superhuman Cocktailcrafting", 0, 85),
         ("Tango of Terror", 0, 86),
         ("Salacious Cocktailcrafting", 0, 136),
+	("Stealth Mistletoe", 0, 151),
        ),
 "AT" : (
         ("Moxie of the Mariachi", 0, 87),
-	("Sing", 0, 146), ##############################LAST SKILL
+	("Sing", 0, 146),
         ("The Moxious Madrigal", 0, 88),
         ("The Magical Mojomuscular Melody", 0, 89),
         ("Cletus's Canticle of Celerity", 1, 90),
@@ -157,6 +164,8 @@ mainSkillList = {
         ("Ur-Kel's Aria of Annoyance", 1, 102),
         ("Dirge of Dreadfulness", 1, 103),
         ("Donho's Bubbly Ballad", 1, 137),
+	("Cringle's Curative Carol", 1, 152),
+	("Inigo's Incantation of Inspiration", 1, 155), 
        ),
 "Gnomish" : (
         ("Cosmic Ugnderstanding", 0, 104),
@@ -198,6 +207,7 @@ mainSkillList = {
         ("Really Expensive Jewelrycrafting", 0, 131),
         ("Rainbow Gravitation", 0, 132),
         ("Vent Rage Gland", 0, 133),
+	("Summon Crimbo Candy", 0, 153),
        ),
 }
 
@@ -290,14 +300,16 @@ if form.has_key('skills') or form.has_key('hash'):
    print '  <td align="center">Other</td>'
    print ' </tr>'
    
-   for i in range(0,19):
+   for i in range(0,21):
       print ' <tr>'
       z = i-1
       if i == 0: print '  <td align="center">0 (T)</td>'
       elif i == 1: print '  <td align="center">0 (C)</td>'
       elif i < 17: print '  <td align="center">%d</td>' % z
-      elif i == 17: print '  <td align="center">Spooky Raven</td>'
+      elif i == 17: print '  <td align="center">Spookyraven</td>'
       elif i == 18: print '  <td align="center">Sea Skills</td>'
+      elif i == 19: print '  <td align="center">Crimbo</td>'
+      elif i == 20: print '  <td align="center">Traveling Trader</td>'
 
       for j in ('SC','TT','P','S','DB','AT','Gnomish','Hobopolis','Clan Dungeon Boss', 'Other'):
          if i < len(mainSkillList[j]):
@@ -335,7 +347,7 @@ if form.has_key('skills') or form.has_key('hash'):
 
    print '</table>'
 
-   print '<p><a href="skillChecker.cgi?hash=%s">Perma-link</a> (if you want to post this in your profile, <a href="http://tinyurl.com/create.php?url=http://overlordindustries.net/cgi-bin/skillChecker.cgi?hash=%s" target="_newWindow">tinyurl.com</a> is recommended)</p>' % (long_to_base64(hash_long),long_to_base64(hash_long))
+   print '<p><a href="skillChecker.cgi?hash=%s">Perma-link</a> (if you want to post this in your profile, <a href="http://tinyurl.com/create.php?url=http://alliancefromhell.com/cgi-bin/hobo/skillChecker.cgi?hash=%s" target="_newWindow">tinyurl.com</a> is recommended)</p>' % (long_to_base64(hash_long),long_to_base64(hash_long))
 
    print '<p>If you ascended right now:</p>'
    print '<ul>'
@@ -355,6 +367,9 @@ print """
 </p>
 <p>
 Change log<br />
+02/08/2010 - Traveling Trader skill added<br />
+12/29/2009 - Another crimbo skill added<br />
+12/15/2009 - Crimbo skills added<br />
 11/15/2009 - tinyurl link added<br />
 11/10/2009 - deusnoctum and bmaher take over development. Skill list brought up to date.<br />
 01/26/2009 - Added the SC/TT Sea Skills.<br />
