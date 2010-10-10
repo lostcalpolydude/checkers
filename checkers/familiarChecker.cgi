@@ -125,6 +125,10 @@ familiarList = [
 [ "Snow Angel", "Snowangel.gif", 121 ],
 [ "Jack-in-the-Box", "jackinthebox.gif", 122 ],
 [ "BRICKO chick", "brickochick.gif", 123 ],
+[ "Baby Bugged Bugbear", "babybugbug.gif", 124 ],
+[ "Underworld Bonsai", "uwbonsai.gif", 134 ],
+[ "Rogue Program", "Tronguy.gif", 135 ],
+[ "Mini-Hipster", "Minihipster.gif", 136 ]
 ]
 
 cgitb.enable()

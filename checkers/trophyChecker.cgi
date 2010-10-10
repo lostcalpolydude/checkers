@@ -74,7 +74,7 @@ mainTrophyList = (
    ("Two-Tiered Tiny Plastic Trophy", "Have all 64 tiny plastic series 2 figurines in your display case", 0, "Just_like_grandmas_dentures.gif", 69),
    ("Master Paster", "Discover 69 different Meat Pasting recipes", 0, "Who_runs_bartertown.gif", 70),
    ("Golden Spatula", "Discover 50 different food recipes", 0, "And_thats_all.gif", 71),
-   ("Mellon Baller, Shot Caller", "Discover 100 different food recipes", 0, "I_hardly_know_her.gif", 72),
+   ("Melon Baller, Shot Caller", "Discover 100 different food recipes", 0, "I_hardly_know_her.gif", 72),
    ("BAM!", "Discover 150 different food recipes", 0, "What_do_you_want_on_your_tombstone.gif", 73),
    ("Speakeasy Savant", "Discover 20 different booze recipes", 0, "Ill_make_a_note_of_it.gif", 74),
    ("Honky Tonk Hero", "Discover 50 different booze recipes", 0, "Hippy_hippy_shake.gif", 75),
@@ -95,6 +95,8 @@ mainTrophyList = (
    ("Septuple Platinum", "Make 7 unique AT Buff recordings", 0, "Steal_this_music_thumb.gif", 90),
    ("Professional Photographer", "Use 40 4-d cameras", 0, "Raggedy_annie_leibovitz_thumb.gif", 91),
    ("General Assembler", "Discover 50 different miscellaneous recipes", 0, "Thats_numberwang_thumb.gif", 92),
+   ("Penultimate Fantasy VII", "Defeat 7 BRICKO airships", 0, "Aeris_kills_dumbledore_thumb.gif", 93),
+   ("The Wrong Place at the Right Time", "Defeat your Nemesis in the order SC -> TT -> P -> S -> DB -> AT", 0, "Ocd_genocide_thumb.gif", 94),
 )
 
 

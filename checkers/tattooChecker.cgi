@@ -120,7 +120,7 @@ tattooList = [
 ["Class6.gif","Accordion Thief",0, 91],
 ["Class6hc.gif","Accordion Thief HC",0, 92],
 ["Class6hco.gif","Accordion Thief HCO",0, 93],
-["Revclass6","Legendary Regalia of the Master Squeezeboxer‎",0, 142], ##last one added
+["Revclass6","Legendary Regalia of the Master Squeezeboxer‎",0, 142],
 ["Bonertat.gif","Custom Tattoo",1, 94],
 ["Bunny.gif","Custom Tattoo",1, 95],
 ["Cutter.gif","Custom Tattoo",1, 96],
@@ -128,6 +128,7 @@ tattooList = [
 ["Tehclub.gif","Custom Tattoo",1, 98],
 ["Tehclub_f.gif","Custom Tattoo",1, 99],
 ["Tikidemon.gif","Custom Tiki Tattoo", 1, 123],
+["Wintat.gif","Custom Tattoo",1, 143], ##last one added
 ]
 
 cgitb.enable()
